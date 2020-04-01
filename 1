@@ -1,0 +1,9 @@
+NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitDay | NSCalendarUnitMonth fromDate:[NSDate date]];
+
+NSInteger day = [components day];
+
+NSInteger month = [components month];
+
+if (day == 01 && month == 4){
+NSLog(@"The Next Is Yours, Shrooms");
+}
